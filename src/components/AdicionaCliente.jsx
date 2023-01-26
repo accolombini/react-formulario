@@ -2,6 +2,8 @@ import { Formik, useField } from 'formik';
 import React from 'react';
 import * as yup from 'yup';
 
+// Estamos nesta aplicação trabalhando com um único componente 
+
 const Campo = ({ label, ...props }) => {
   const [field, meta] = useField(props);
   return (

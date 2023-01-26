@@ -1,0 +1,12 @@
+É importante aprender como fazr validação de um formulário
+Outro ponto importante é aprender como melhorar a gestão de eventos de formulários com o FORMIK
+Para melhorar o esquema de validação de um formulário vamos usar um pacote chamado Yup
+
+Lembrando sempre que nosso cliente é uma aplkicação React e no nosso servidor poderemos ter qualquer aplicação, uma API, um banco, etc.
+
+Numa aplicação Cliente Servidor, temos dois tipos de validação, uma validação do lado do cliente e outra validação do lado do servidor 
+
+Precisamos realizar algumas instalações adicionais:
+    FORMIK => nos ajuda a gerenciar o formuário de uma forma mais tranquila 
+    npm install formik
+    
