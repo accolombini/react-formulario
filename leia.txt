@@ -9,4 +9,6 @@ Numa aplicação Cliente Servidor, temos dois tipos de validação, uma validaç
 Precisamos realizar algumas instalações adicionais:
     FORMIK => nos ajuda a gerenciar o formuário de uma forma mais tranquila 
     npm install formik
+    Yup => nos ajuda a fazer um esquema de validação
+    npm install yup
     

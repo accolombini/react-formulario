@@ -3,9 +3,9 @@ import React from 'react';
 import * as yup from 'yup';
 
 // Estamos nesta aplicação trabalhando com um único componente 
-
+// O componente Campo é uma boa prática que reduz o código e eleva a clareza evitando linhas repetidas
 const Campo = ({ label, ...props }) => {
-  const [field, meta] = useField(props);
+  const [field, meta] = useField(props);  // Este Hooks retorna o field e os meta atributos
   return (
     <div className="form-group">
       <label htmlFor={props.id}>{label}</label>
